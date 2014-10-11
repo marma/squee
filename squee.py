@@ -5,7 +5,7 @@ from os.path import join,isfile
 from argparse import ArgumentParser
 
 app = Flask(__name__)
-app.debug = True
+#app.debug = True
 
 basedir, done_file, queue_file, queue, queue_set, pending, done = None, None, None, None, None, None, None
 
